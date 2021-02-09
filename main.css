@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400&family=Playfair+Display&family=Raleway:wght@400;600&display=swap');
+/* Global */
+body {
+  overflow-x: hidden;
+  background-color: #101010;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: white;
+  font-size: 3em;
+
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  color: #FCEDA0;
+  font-weight: 300;
+  font-size: 1.5em;
+}
+
+
+p {
+  font-family: 'Raleway', sans-serif;
+  color: #DBDBDB;
+
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: white;
+}
+
+a:hover {
+    color: #FCEDA0;
+
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  margin-right: 5vw;
+}
+
+.navbar-nav {
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+  padding-right: 1vw;
+  padding-left: 1vw;
+  width: 120px;
+}
+
+.nav-link:hover, .nav-link:active {
+  background: #FCEDA0;
+  color: black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+  color: #111216;
+}
+.nav-link {
+  background: #111216;
+  border-right: 1px solid #DBDBDB;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  margin-top: 2.5vh;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  letter-spacing: 0.185em;
+}
+
+.subheading {
+  margin-left: 10vw;
+}
+
+.gold-border {
+  border: 1px solid #FCEDA0;
+}
+
+/* Header */
+
+.header-parent {
+  background: url("gold-background.svg");
+  background-size: cover;
+  height: 825px;
+  width: auto;
+}
+
+.header-wrapper {
+  margin-left: 10vw;
+}
+
+.header-wrapper h1 {
+  font-size: 6em;
+}
+
+.header-wrapper h2 {
+  font-size: 4.5em;
+}
+
+.action {
+  text-transform: uppercase;
+  padding-right: 0.25vw;
+  font-size: 0.75em;
+  font-family: 'Inter', sans-serif;
+    color: #FCEDA0;
+}
+
+.action i {
+  color: #FCEDA0;
+}
+
+/* About */
+.about-parent {
+  background: #111216;
+  height: auto;
+  padding-bottom: 15vh;
+
+}
+
+.about-content {
+  margin-left: 5vw;
+  height: 100%;
+  margin-top: -2vh;
+}
+
+.about-content-text {
+  padding-right: 5vw;
+}
+
+.about-wrapper {
+  width: 1134px;
+  height: 645px;
+  background: #0E0E0E;
+}
+
+.download {
+  position: absolute;
+  width: 267px;
+  height: 66px;
+  color: #FCEDA0;
+
+  background: #111216;
+  border: 1px solid #FCEDA0;
+  box-sizing: border-box;
+}
+
+.download:hover {
+  background: #FCEDA0;
+  color:#111216;
+
+}
+
+.skill-wrapper {
+  padding: 0;
+  margin-right: 1vw;
+}
+
+.skill-item {
+  display: inline;
+  width: auto;
+  height: 25px;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  background: #FCEDA0;
+  border-radius: 5px;
+  justify-content: center;
+}
+/* Projects */
+.projects-parent {
+  background: #111216;
+  height: 700px;
+}
+
+.browser {
+  position: absolute;
+  width: auto;
+  height: 397px;
+  background: #0E0E0E;
+}
+
+
+.browser h1 {
+  font-size: 2.25em;
+
+}
+
+.browser h2 {
+  font-size: 1.125em;
+
+}
+
+.browser p {
+  font-size: 1em;
+
+}
+
+.top-bar {
+  width: 100%;
+}
+
+.project-description {
+  margin-left: 2.5vw;
+  margin-top: 7.5vh;
+  margin-bottom: 1vh;
+  bottom: 0;
+  position: absolute;
+}
+
+.webume {
+  background: url("webume-browser.png") no-repeat;
+}
+
+.financial-data {
+  background: url("financial-data-browser.png") no-repeat;
+
+}
+
+/* Socials */
+.socials-parent {
+  background: #101010;
+  height: 500px;
+}
+
+.socials-parent .subheading {
+  margin-top: 7.5vh;
+}
+
+.socials-content h1 {
+  font-size: 1.5em;
+}
+
+.socials-content {
+  margin-top: 1.5vh;
+  margin-left: 2.5vw;
+  line-height: 1.75vh;
+  width: 150px;
+}
+
+.socials-content-wrapper {
+  margin-top: 7.5vh;
+}
+.socials-button {
+  margin-bottom: 2.5vh;
+  width: 312px;
+  height: 129px;
+  background: #111216;
+  border: 1px solid #FCEDA0;
+  box-sizing: border-box;
+  border-radius: 13px;
+}
+
+.social-icon {
+  float: right;
+  font-size: 3em;
+  color: white;
+  margin-left: 0.85vw;
+}
+
+.social-icon a {
+  color: #DBDBDB;
+
+}
+
+.social-icon a:hover {
+  color: #FCEDA0;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Adjusts spacing of browsers between eachother on mobile views. */
+  #mbrowser {
+    margin-top: 450px;
+  }
+
+  .projects-parent {
+    height: 1100px;
+  }
+
+  .browser {
+    width: 75%;
+  }
+
+  .browser h2 {
+    display: none;
+  }
+
+}
